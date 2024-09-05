@@ -1,3 +1,0 @@
-#Guia De Comandos#
-
-##Git##
