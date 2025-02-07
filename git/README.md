@@ -1,0 +1,28 @@
+## Git
+
+- [x] **git init**: Inicializa un repositorio git en el director
+- [x] **git add .**: Agrega todos los archivos del directorio actual
+- [x] **git commit -m "Mensaje de la confirmación"**: Confirma los cambios agregados con un mensaje descriptivo.
+- [x] **git pull "nombre_remoto" "rama"**: Fusiona la rama especificada con la que se encuentra localmente
+- [x]  **git push "nombre_remoto" "rama"**: Añade y sube al repositorio remoto una nueva rama llamada "rama". Si ya existe, fusiona
+- [x] **git branch "nombre de la rama"**: Crea una nueva rama a partir de la rama activa
+- [x] **git checkout -b "nombre de la rama"  "id_de_la_rama_o_commit"**: Crea y cambia a una rama basado en una rama
+- [x] **git checkout "nombre de la rama"** : Cambia a la rama indicada
+- [x] **git diff**: muestra las diferencias de archivos que aún no se han preparado.
+- [x] **git status**: Muestra el estado de tu directorio de trabajo.
+- [x] **git log**: Muestra el historial de commits.
+- [x] **git checkout**: -b branch_name: Crea y cambia a una nueva rama
+- [x] **git merge "nombre de la rama"**: Fusiona la rama indicada con la main.
+- [x] **git stash**: Me guarda los cambios en el local sin fusionarlos con el repositorio.
+- [x] **git stash** pop: Aplica y elimina los cambios ocultos.
+- [x] **git show "commit_id"**: Muestra detalles sobre una confirmación.
+- [x] **git reset HEAD~1**: Deshacer la última confirmación, conservando los cambios localmente.
+- [x] **git format-patch -1 "commit_id"**: Crea un archivo de parche para una confirmación específica.
+- [x] **git apply patch_"file_name"** : Aplica los cambios de un archivo de parche.
+- [x] **git branch -D "branch_name"**: Elimina una rama a la fuerza.
+- [x] **git reset**: Deshacer confirmaciones moviendo la referencia de la rama.
+- [x] **git revert**: Deshacer confirmaciones mediante la creación de una nueva confirmación.
+- [x] **git cherry-pick "commit_id"**: Aplica los cambios de una confirmación específica.
+- [x] **git branch**: Enumera las ramas.
+- [x] **git reset --hard**: Restablece todo a una confirmación anterior, borrando todos los cambios no confirmados.
+- [x] **git reset --hard "id_de_la_rama_o_commit"**: Mueve la punta de la rama actual al commit especificado (o rama) y actualiza tanto el índice (staging area) como el directorio de trabajo para que coincidan con ese commit.
